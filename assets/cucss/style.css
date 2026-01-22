@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Moonbridge';
+    src: url('/moonbridge.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    max-width: 720px;
+    padding: 0 20px;
+    font: 400 16px/1.7 'Moonbridge', PingFang SC, sans-serif;
+    color: #444;
+    margin: 0 auto;
+    overflow-x: hidden;
+    cursor: url('/assets/cur/blue1_d.cur'), auto;
+}
+
+a:hover, button:hover, .hover-effect:hover {
+    cursor: url('/assets/cur/blue1_h.cur'), pointer;
+}
+
+.toggleBtn {
+    cursor: url('/assets/cur/blue1_d.cur'), pointer; 
+}
+
+.toggleBtn:hover {
+    cursor: url('/assets/cur/blue1_h.cur'), pointer;
+}
+
+
+
+
+/* 友情链接样式 */
+.friend-form {
+    @extend .message-form;
+}
+
+.friend-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.link-item a {
+    display: block;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.link-item a:hover {
+    transform: translateY(-2px);
+}
+
+.link-item span {
+    display: block;
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 0.5rem;
+}
