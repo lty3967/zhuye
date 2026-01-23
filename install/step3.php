@@ -155,7 +155,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['install'])) {
         $config_content .= "\n";
         $config_content .= "// 网站配置\n";
         $config_content .= "define('SITE_URL', '" . addslashes(rtrim($config['site_url'], '/')) . "');\n";
-        $config_content .= "define('SITE_NAME', '友情链接管理系统');\n";
+        $config_content .= "define('SITE_NAME', '龙腾云个人主页系统');\n";
         $config_content .= "\n";
         $config_content .= "// 数据库连接\n";
         $config_content .= "try {\n";
@@ -603,7 +603,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['install'])) {
                             <div class="result-icon success-icon">✓</div>
                             <div class="result-title">安装成功！</div>
                             <div class="result-message">
-                                恭喜！友情链接管理系统已成功安装。<br>
+                                恭喜！龙腾云个人主页系统已成功安装。<br>
                                 您可以通过以下信息登录后台管理：
                             </div>
                             
@@ -655,7 +655,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['install'])) {
                             <div class="install-result" id="installing">
                                 <div class="spinner" id="loadingSpinner"></div>
                                 <div class="result-title">正在安装...</div>
-                                <div class="result-message" id="statusMessage">正在创建数据库表和配置文件，请稍候...</div>
+                                <div class="result-message" id="statusMessage">正在创建数据库表和配置文件，请点击开始安装...</div>
                             </div>
                             
                             <div class="install-footer">
