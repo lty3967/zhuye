@@ -17,3 +17,9 @@ https://www.770a.cn
 825703967
 版权所有:
 © 龙毅 2015~2026
+
+
+nginx伪静态设置：
+rewrite ^/index.html$ /index.php;
+rewrite ^/liuyan.html$ /liuyan.php;
+rewrite ^/friends.html$ /friends.php;
