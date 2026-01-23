@@ -380,7 +380,7 @@ try {
             if (!$emailSender->isEnabled()): ?>
                 <div class="mail-message info">
                     <i class="fas fa-info-circle"></i>
-                    邮件通知功能未启用，审核结果将不会通过邮件通知用户。请前往<a href="email_config.php" style="color: #1E40AF; text-decoration: underline; margin-left: 5px;">发信功能配置</a>启用邮件功能。
+                    邮件通知功能未启用，审核结果将不会通过邮件通知用户。请前往<a href="email.php" style="color: #1E40AF; text-decoration: underline; margin-left: 5px;">发信功能配置</a>启用邮件功能。
                 </div>
             <?php endif; ?>
         </div>
