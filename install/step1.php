@@ -14,7 +14,7 @@ if (file_exists($lock_file)) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>安装向导 - 友情链接系统</title>
+    <title>安装向导 - 龙腾云个人主页系统</title>
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
     <link rel="stylesheet" href="/assets/cucss/style.css" media="screen" type="text/css">
     <link rel="stylesheet" href="/assets/cucss/demo.css" type="text/css">
@@ -361,8 +361,8 @@ if (file_exists($lock_file)) {
             <div class="container">
                 <div class="install-wrapper">
                     <div class="install-header">
-                        <h1>友情链接系统安装向导</h1>
-                        <p>欢迎使用友情链接管理系统，请按照以下步骤完成安装</p>
+                        <h1>龙腾云个人主页安装向导</h1>
+                        <p>欢迎使用龙腾云个人主页系统，请按照以下步骤完成安装</p>
                     </div>
                     
                     <div class="step-indicator">
