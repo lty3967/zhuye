@@ -205,68 +205,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_password'])) {
     </style>
 </head>
 <body>
-    <!-- 移动端菜单切换按钮 -->
-    <button class="mobile-menu-toggle" aria-label="切换菜单">
-        <i class="fas fa-bars"></i>
-    </button>
-
-    <!-- 遮罩层 -->
-    <div class="overlay"></div>
-
     <!-- 左侧菜单 -->
-    <nav class="sidebar">
-        <div class="logo">
-            <i class="fas fa-cube"></i> 管理后台
-        </div>
-
-        <div class="menu-group">
-            <div class="menu-title">首页</div>
-            <a href="index.php" class="menu-item">
-                <i class="fas fa-home"></i> 控制面板
-            </a>
-        </div>
-
-        <div class="menu-group">
-            <div class="menu-title">友情链接管理</div>
-            <a href="pending_links.php" class="menu-item">
-                <i class="fas fa-hourglass-half"></i> 待审核友链
-            </a>
-            <a href="approved_links.php" class="menu-item">
-                <i class="fas fa-check-circle"></i> 已审核友链
-            </a>
-        </div>
-
-        <div class="menu-group">
-            <div class="menu-title">留言管理</div>
-            <a href="pending_messages.php" class="menu-item">
-                <i class="fas fa-comment-dots"></i> 待审核留言
-            </a>
-            <a href="approved_messages.php" class="menu-item">
-                <i class="fas fa-check-circle"></i> 已审核留言
-            </a>
-        </div>
-
-        <div class="menu-group">
-            <div class="menu-title">系统设置</div>
-            <a href="forbidden.php" class="menu-item">
-                <i class="fas fa-ban"></i> 违禁词管理
-            </a>
-            <a href="email.php" class="menu-item">
-                <i class="fas fa-envelope"></i> 发信功能配置
-            </a>
-        </div>
-        
-        <div class="menu-group">
-            <div class="menu-title">账户管理</div>
-            <a href="user.php" class="menu-item active">
-                <i class="fas fa-user-cog"></i> 管理员信息
-            </a>
-            <a href="logout.php" class="menu-item">
-                <i class="fas fa-sign-out-alt"></i> 退出登录
-            </a>
-        </div>
-    </nav>
-
+    <?php include __DIR__ . '/includes/sidebar.php'; ?>
     <!-- 右侧内容 -->
     <div class="main-content">
         <div class="header">
