@@ -12,7 +12,7 @@ V1.0.0新版特性：
 
 官方网站:
 https://www.ltywl.top
-http://www.770a.cn
+https://www.770a.cn
 联系QQ:
 825703967
 版权所有:
